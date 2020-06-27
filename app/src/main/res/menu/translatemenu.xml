@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="setting"
+        android:icon="@drawable/groub"
+        app:showAsAction="always"
+        android:id="@+id/users"/>
+
+    <item
+        android:title="setting"
+        android:icon="@drawable/setting"
+        app:showAsAction="always"
+        android:id="@+id/set"/>
+    <item
+        android:title="translation"
+        android:icon="@mipmap/ttr"
+        app:showAsAction="always"
+        android:id="@+id/trans"/>
+
+</menu>

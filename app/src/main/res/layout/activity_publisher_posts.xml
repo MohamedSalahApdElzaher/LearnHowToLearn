@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        tools:context=".publisher_posts">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/bg_top_header"
+            android:background="@drawable/ic_bg_topheader"/>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:id="@+id/publisher_image"
+                android:src="@drawable/user"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="15dp"
+                app:civ_border_width="1dp"
+                android:layout_marginRight="10dp"
+                app:civ_border_color="@android:color/holo_green_light"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="15dp"
+                        android:textStyle="normal"
+                        android:shadowRadius="5"
+                        android:textColor="@android:color/black"
+                        android:layout_marginRight="15dp"
+                        android:text="Author : "/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/publisher_name"
+                        android:layout_gravity="center"
+                        android:textSize="15dp"
+                        android:textStyle="normal"
+                        android:shadowRadius="5"
+                        android:shadowColor="@android:color/white"
+                        android:textColor="@android:color/black"
+                        android:text="Mohamed Salah"/>
+                </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rc_publiser_posts"
+            android:layout_margin="10dp"
+            tools:listitem="@layout/reviews_listitem"
+            />
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adVv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-5553020504531246/3847581523"
+            >
+
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+
+</ScrollView>

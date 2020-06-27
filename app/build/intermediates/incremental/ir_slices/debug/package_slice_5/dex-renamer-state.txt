@@ -1,0 +1,4 @@
+#Sun Apr 12 13:12:06 EET 2020
+base.0=C\:\\Users\\mmm\\Downloads\\Compressed\\Signin-Signup-UI-design-2019-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.0=classes.dex
+renamed.0=classes.dex

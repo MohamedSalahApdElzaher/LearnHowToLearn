@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="app_name">LearnHowToLearn</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="id">
+        <item>android</item>
+        <item>flutter</item>
+        <item>back_end</item>
+        <item>front_end</item>
+        <item>computerenginnering</item>
+        <item>cs</item>
+        <item>machinelearning</item>
+        <item>xamarin</item>
+        <item>security</item>
+        <item>c_sharp</item>
+        <item>network</item>
+        <item>mangement</item>
+        <item>cs&amp;ce"</item>
+        <item>c++</item>
+        <item>python</item>
+        <item>java</item>
+        <item>kotlin</item>
+        <item>gaming</item>
+        <item>ios</item>
+        <item>testing</item>
+        <item>embded</item>
+        <item>cv</item>
+        <item>jobs</item>
+        <item>design</item>
+        <item>interviewTips</item>
+        <item>softskills</item>
+        <item>lang</item>
+        <item>progrmmingbasics</item>
+
+
+    </string-array>
+</resources>
